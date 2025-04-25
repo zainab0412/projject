@@ -14,7 +14,7 @@ document.getElementById("contact-form").addEventListener("submit", function(even
 });
 function showSection(sectionId){
     document.querySelectorAll("section").forEach(section => {
-        section.classList.add("");
+        section.classList.add("hidden");
     } );
     document.getElementById(sectionId).classList.remove("hidden");
 }
