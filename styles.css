@@ -30,6 +30,21 @@ nav ul li a {
 section {
     padding: 50px 20px;
 }
+.Rate {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.Rate img {
+    display: flex;
+    width: 10px;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #8b4513;
+    border-radius: 10px;
+}
 
 .gallery {
     display: flex;
