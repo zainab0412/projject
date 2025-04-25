@@ -12,9 +12,6 @@ document.getElementById("contact-form").addEventListener("submit", function(even
         alert("Please fill out all fields.");
     }
 });
-// document.querySelector('.Home').addEventListener('click',()=>{
-//     document.querySelector('.Home').scrollIntoView({behavior:'smooth'});
-// });
 function showSection(sectionId){
     document.querySelectorAll("section").forEach(section => {
         section.classList.add("hidden");
